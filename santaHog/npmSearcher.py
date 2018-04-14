@@ -1,4 +1,9 @@
-import tempfile, os, requests, re, tarfile, json
+import tempfile
+import os
+import requests
+import re
+import tarfile
+import json
 from uuid import uuid4
 from scan_archives import get_secrets_from_targz
 from truffleHogRegexes.regexChecks import regexes

@@ -1,4 +1,9 @@
-import urllib, tarfile, re, os, requests, tempfile
+import urllib
+import tarfile
+import re
+import os
+import requests
+import tempfile
 from scan_archives import get_secrets_from_targz
 from bs4 import BeautifulSoup
 from truffleHogRegexes.regexChecks import regexes
