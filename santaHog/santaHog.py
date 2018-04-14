@@ -1,4 +1,5 @@
 import npmSearcher
+import json
 import pypiSearcher
 import argparse
 from truffleHogRegexes.regexChecks import regexes
@@ -41,7 +42,7 @@ def main():
         for regex in rules:
             regexes[regex] = rules[regex]
     output = scan_package(args.package, args.npm, args.pypi, args.scan_entropy, args.scan_regexes, custom_regexes=regexes)
-    print output
+    json.dumps(output, indent=4)
 
 if __name__ == "__main__":
     main()
