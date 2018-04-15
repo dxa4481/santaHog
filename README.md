@@ -3,18 +3,18 @@ Searches through npm and pypi packages for secrets, digging deep into commit pac
 
 
 ```
-santaHog trufflehog --pypi
+santaHog left-pad --npm
 ```
 
 or
 
 ```
-santaHog truffleHog --pypi --entropy
+santaHog left-pad --npm --entropy
 ```
 
 ## Install
 ```
-pip install truffleHog
+pip install santaHog
 ```
 
 ## How it works
