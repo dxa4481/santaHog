@@ -12,7 +12,7 @@ setup(
     install_requires=[
         'truffleHogRegexes == 0.0.4',
         'beautifulsoup4==4.6.0',
-        'requests==2.18.4'
+        'requests==2.20.0'
     ],
     entry_points = {
       'console_scripts': ['santahog = santaHog.santaHog:main'],
